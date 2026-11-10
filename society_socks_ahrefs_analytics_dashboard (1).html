@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Society Socks | Organic Growth & Partnership Strategy</title>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            ahrefs: {
+              header: '#141824',
+              subnav: '#1c2234',
+              sidebar: '#192030',
+              border: '#2b354d',
+              accent: '#f97316',
+              accentHover: '#ea580c',
+              blue: '#2563eb',
+              lightBlue: '#0284c7',
+              surface: '#ffffff',
+              bg: '#f1f5f9',
+              badgeGreen: '#10b981',
+              badgeOrange: '#f59e0b',
+              badgeBlue: '#3b82f6',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f1f5f9;
+      color: #1e293b;
+    }
+    /* Custom Scrollbars */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+    .metric-card-hover:hover {
+      background-color: #f8fafc;
+      transition: background-color 0.15s ease;
+    }
+    .table-row-hover:hover {
+      background-color: #f8fafc;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col bg-slate-100">
+
+  <!-- ================= TOP NAV BAR (AUTHENTIC AHREFS) ================= -->
+  <header class="bg-[#141824] text-slate-300 text-xs font-medium border-b border-[#263044] select-none sticky top-0 z-50">
+    <div class="max-w-[1700px] mx-auto px-4 h-12 flex items-center justify-between">
+      
+      <!-- Brand & Main Modules -->
+      <div class="flex items-center space-x-6">
+        <!-- Logo -->
+        <div class="flex items-center space-x-2">
+          <div class="w-7 h-7 bg-ahrefs-accent rounded-md flex items-center justify-center text-white font-extrabold text-sm shadow">
+            a
+          </div>
+          <span class="text-white font-bold text-base tracking-tight">ahrefs</span>
+        </div>
+
+        <!-- Tool Nav Links -->
+        <nav class="hidden md:flex items-center space-x-1 text-slate-300">
+          <a href="#" class="px-3 py-1.5 rounded hover:bg-[#20293d] hover:text-white transition">Dashboard</a>
+          <a href="#" class="px-3 py-1.5 rounded bg-[#25334d] text-white font-semibold flex items-center gap-1.5 shadow-sm">
+            <span>Site Explorer</span>
+            <span class="w-1.5 h-1.5 rounded-full bg-ahrefs-accent"></span>
+          </a>
+          <a href="#" class="px-3 py-1.5 rounded hover:bg-[#20293d] hover:text-white transition">Keywords Explorer</a>
+          <a href="#" class="px-3 py-1.5 rounded hover:bg-[#20293d] hover:text-white transition">Site Audit</a>
+          <a href="#" class="px-3 py-1.5 rounded hover:bg-[#20293d] hover:text-white transition">Rank Tracker</a>
+          <a href="#" class="px-3 py-1.5 rounded hover:bg-[#20293d] hover:text-white transition">Content Explorer</a>
+        </nav>
+      </div>
+
+      <!-- Right Header Status & User Info -->
+      <div class="flex items-center space-x-3">
+        <!-- Verification Pill -->
+        <div class="hidden lg:flex items-center gap-2 bg-[#20293d] border border-[#2f3d58] rounded px-2.5 py-1 text-[11px] text-slate-300">
+          <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span class="font-semibold text-emerald-300">Verified Project Archive:</span>
+          <span>Society Socks (Sep '19 – Jan '21)</span>
+        </div>
+
+        <!-- Notification & Help -->
+        <button onclick="showToast('No new unread SEO crawler alerts for this snapshot.')" class="w-8 h-8 rounded hover:bg-[#20293d] text-slate-400 hover:text-white flex items-center justify-center relative">
+          <i class="fa-regular fa-bell text-sm"></i>
+          <span class="absolute top-1.5 right-1.5 w-2 h-2 bg-ahrefs-accent rounded-full"></span>
+        </button>
+
+        <!-- Profile Avatar -->
+        <div class="flex items-center space-x-2 pl-2 border-l border-[#263044]">
+          <div class="w-7 h-7 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xs">
+            JA
+          </div>
+          <span class="hidden sm:inline text-white font-medium text-xs">Junior Analyst</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ================= TARGET SEARCH BAR & TIMEFRAME RIBBON ================= -->
+  <div class="bg-[#1c2234] border-b border-[#2d3952] px-4 py-3 shadow-md">
+    <div class="max-w-[1700px] mx-auto flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-3">
+      
+      <!-- Search Input Container -->
+      <div class="flex items-center flex-1 max-w-3xl">
+        <!-- Scope Dropdown -->
+        <div class="relative">
+          <button id="scopeBtn" class="bg-[#242d42] hover:bg-[#2d3852] text-slate-200 text-xs font-medium px-3 py-2 rounded-l border border-r-0 border-[#3b4968] flex items-center gap-1.5 transition">
+            <span class="text-ahrefs-accent font-mono font-bold">*.domain/*</span>
+            <i class="fa-solid fa-chevron-down text-[10px] text-slate-400"></i>
+          </button>
+        </div>
+
+        <!-- Input Box -->
+        <div class="relative flex-1">
+          <input 
+            type="text" 
+            id="domainInput" 
+            value="societysocks.com" 
+            class="w-full bg-[#141824] text-white text-xs font-mono px-3.5 py-2 border border-[#3b4968] focus:outline-none focus:border-ahrefs-accent placeholder-slate-500"
+            placeholder="e.g. domain.com or domain.com/page"
+          />
+          <button onclick="document.getElementById('domainInput').value='societysocks.com'" title="Reset" class="absolute right-2.5 top-2 text-slate-400 hover:text-white text-xs">
+            <i class="fa-solid fa-circle-xmark"></i>
+          </button>
+        </div>
+
+        <!-- Search Action Button -->
+        <button onclick="simulateSearch()" class="bg-ahrefs-accent hover:bg-ahrefs-accentHover text-white font-semibold text-xs px-5 py-2 rounded-r transition flex items-center gap-1.5 shadow-sm active:scale-95">
+          <i class="fa-solid fa-magnifying-glass text-xs"></i>
+          <span>Explore</span>
+        </button>
+      </div>
+
+      <!-- Timeframe Filter & Milestone Tag -->
+      <div class="flex items-center flex-wrap gap-2 text-xs">
+        <div class="bg-[#141824] border border-[#354361] rounded px-3 py-1.5 flex items-center gap-2 text-slate-300">
+          <i class="fa-regular fa-calendar-check text-ahrefs-accent"></i>
+          <span class="text-slate-400">Analyst Tenure:</span>
+          <span class="text-white font-semibold">Sep 2019 – Jan 2021</span>
+          <span class="text-[10px] bg-emerald-950 text-emerald-300 border border-emerald-700 font-bold px-1.5 py-0.5 rounded">17 Mos Active</span>
+        </div>
+
+        <button onclick="exportSnapshotData()" class="bg-[#242d42] hover:bg-[#2d3852] text-slate-200 border border-[#3b4968] rounded px-3 py-1.5 flex items-center gap-1.5 transition">
+          <i class="fa-solid fa-download text-slate-400 text-xs"></i>
+          <span>Export CSV</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ================= MAIN LAYOUT ================= -->
+  <div class="max-w-[1700px] mx-auto w-full flex-1 flex flex-col lg:flex-row px-4 py-4 gap-4">
+    
+    <!-- LEFT SIDEBAR (AHREFS NAVIGATION TREE) -->
+    <aside class="w-full lg:w-64 bg-white rounded-lg border border-slate-200 shadow-sm p-3 h-fit flex-shrink-0">
+      <div class="mb-3 px-2 py-1.5 bg-slate-50 border border-slate-100 rounded flex items-center justify-between">
+        <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Domain Mode</span>
+        <span class="text-[11px] font-mono font-semibold text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded">Subdomains</span>
+      </div>
+
+      <nav class="space-y-4 text-xs">
+        <!-- Overview -->
+        <div>
+          <button onclick="switchTab('overview')" class="tab-nav-btn w-full flex items-center justify-between px-3 py-2 rounded-md font-semibold text-blue-600 bg-blue-50 transition" data-target="overview">
+            <span class="flex items-center gap-2.5">
+              <i class="fa-solid fa-chart-line text-blue-600"></i>
+              <span>Overview</span>
+            </span>
+            <i class="fa-solid fa-chevron-right text-[10px] text-blue-500"></i>
+          </button>
+        </div>
+
+        <!-- Backlink Profile Group -->
+        <div>
+          <div class="px-3 text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1">Backlink Profile</div>
+          <div class="space-y-0.5 font-medium text-slate-600">
+            <button onclick="switchTab('backlinks-table')" class="tab-nav-btn w-full flex items-center justify-between px-3 py-1.5 rounded hover:bg-slate-100 hover:text-slate-900 transition text-left" data-target="backlinks-table">
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-link text-slate-400 text-xs"></i>
+                <span>Backlinks &amp; Media</span>
+              </span>
+            </button>
+            <button onclick="showToast('Anchors report: Top keyword anchors: \'society socks\', \'mens sock subscription\', \'socially conscious socks\'')" class="w-full flex items-center justify-between px-3 py-1.5 rounded hover:bg-slate-100 hover:text-slate-900 transition text-left">
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-anchor text-slate-400 text-xs"></i>
+                <span>Anchors</span>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Junior Analyst Custom Suite -->
+        <div class="pt-2 border-t border-slate-200">
+          <div class="px-3 text-[10px] font-bold text-ahrefs-accent uppercase tracking-wider mb-1 flex items-center justify-between">
+            <span>Analyst Pipeline</span>
+            <span class="w-2 h-2 rounded-full bg-ahrefs-accent"></span>
+          </div>
+          <div class="space-y-0.5 font-medium text-slate-600">
+            <button onclick="switchTab('prospect-pipeline')" class="tab-nav-btn w-full flex items-center justify-between px-3 py-1.5 rounded hover:bg-slate-100 hover:text-slate-900 transition text-left" data-target="prospect-pipeline">
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-bullseye text-ahrefs-accent text-xs"></i>
+                <span class="font-semibold text-slate-800">100+/Wk Prospecting</span>
+              </span>
+              <span class="text-[11px] font-mono text-ahrefs-accent font-bold bg-orange-50 px-1 rounded">112/wk</span>
+            </button>
+            <button onclick="switchTab('media-collaborations')" class="tab-nav-btn w-full flex items-center justify-between px-3 py-1.5 rounded hover:bg-slate-100 hover:text-slate-900 transition text-left" data-target="media-collaborations">
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-handshake text-slate-400 text-xs"></i>
+                <span>Media &amp; 150 Clients</span>
+              </span>
+              <span class="text-[11px] font-mono text-blue-600 font-bold bg-blue-50 px-1 rounded">32 Live</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Quick Summary Note -->
+        <div class="bg-gradient-to-br from-slate-50 to-amber-50/50 p-2.5 rounded border border-amber-200/60 text-[11px] text-slate-600 mt-4">
+          <p class="font-bold text-slate-800 mb-1 flex items-center gap-1.5">
+            <i class="fa-solid fa-lightbulb text-amber-500"></i>
+            Project Scope
+          </p>
+          <p class="leading-relaxed">
+            Focused on improving organic search visibility through targeted backlink outreach and media partnerships.
+          </p>
+        </div>
+      </nav>
+    </aside>
+
+    <!-- MAIN DASHBOARD CONTENT AREA -->
+    <main class="flex-1 flex flex-col space-y-4 min-w-0">
+
+      <!-- ================= PROJECT HIGHLIGHTS & CONTEXT ================= -->
+      <section class="bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden">
+        
+        <!-- Header Info Bar -->
+        <div class="px-5 py-4 bg-slate-50 border-b border-slate-200 flex flex-col gap-1">
+          <h1 class="text-xl font-bold text-slate-900">Society Socks | Organic Growth &amp; Partnership Strategy</h1>
+          <p class="text-sm text-slate-600">Retrospective case study exploring the SEO research, backlink prospecting and partnership outreach strategy used to strengthen organic visibility.</p>
+        </div>
+
+        <div class="px-5 py-3 border-b border-slate-100 bg-white">
+          <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400">Project highlights</h2>
+        </div>
+
+        <!-- Metrics Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-slate-200">
+          
+          <!-- Card 1 -->
+          <div class="p-5 flex flex-col gap-1 hover:bg-slate-50 transition">
+            <div class="text-3xl font-extrabold text-ahrefs-accent">15%</div>
+            <div class="text-sm font-semibold text-slate-800">Organic search traffic growth</div>
+            <div class="text-xs text-slate-500 font-medium mt-auto pt-2">Reported project outcome</div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="p-5 flex flex-col gap-1 hover:bg-slate-50 transition">
+            <div class="text-3xl font-extrabold text-emerald-600">5–10%</div>
+            <div class="text-sm font-semibold text-slate-800">Increase in referring domains</div>
+            <div class="text-xs text-slate-500 font-medium mt-auto pt-2">Reported project outcome</div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="p-5 flex flex-col gap-1 hover:bg-slate-50 transition">
+            <div class="text-3xl font-extrabold text-blue-600">100+</div>
+            <div class="text-sm font-semibold text-slate-800">Backlink prospects analyzed weekly</div>
+            <div class="text-xs text-slate-500 font-medium mt-auto pt-2">Research activity</div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="p-5 flex flex-col gap-1 hover:bg-slate-50 transition">
+            <div class="text-3xl font-extrabold text-amber-600">30+</div>
+            <div class="text-sm font-semibold text-slate-800">Media collaborations targeted</div>
+            <div class="text-xs text-slate-500 font-medium mt-auto pt-2">Strategy target</div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ================= TAB CONTENT CONTAINER ================= -->
+      
+      <!-- TAB 1: OVERVIEW TAB -->
+      <div id="tab-overview" class="tab-pane space-y-4">
+        
+        <!-- My Role & Approach -->
+        <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-6">
+          <h2 class="text-lg font-bold text-slate-900 mb-3 flex items-center gap-2">
+            <i class="fa-solid fa-user-gear text-slate-400"></i> My Role &amp; Approach
+          </h2>
+          <p class="text-sm text-slate-700 leading-relaxed">
+            I supported Society Socks' organic growth strategy by researching backlink opportunities, identifying relevant brand and creator partnerships, and conducting PR outreach. I used Ahrefs to assess SEO opportunities and monitor keyword rankings, referring domains and organic search performance. This work contributed to a 15% increase in organic search traffic and a 5–10% increase in referring domains.
+          </p>
+        </div>
+
+        <!-- How I Evaluated Growth Opportunities -->
+        <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-6">
+          <h2 class="text-lg font-bold text-slate-900 mb-5 flex items-center gap-2">
+            <i class="fa-solid fa-map-location-dot text-slate-400"></i> How I Evaluated Growth Opportunities
+          </h2>
+          
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <!-- Area 1 -->
+            <div class="bg-slate-50 border border-slate-200 rounded-lg p-5">
+              <div class="w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center mb-3">
+                <i class="fa-solid fa-magnifying-glass-chart text-lg"></i>
+              </div>
+              <h3 class="font-bold text-sm text-slate-800 mb-1.5">1. SEO research</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">Keyword rankings, search visibility and backlink gaps.</p>
+            </div>
+            <!-- Area 2 -->
+            <div class="bg-slate-50 border border-slate-200 rounded-lg p-5">
+              <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mb-3">
+                <i class="fa-solid fa-filter text-lg"></i>
+              </div>
+              <h3 class="font-bold text-sm text-slate-800 mb-1.5">2. Prospect evaluation</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">Domain authority, relevance and potential referral value.</p>
+            </div>
+            <!-- Area 3 -->
+            <div class="bg-slate-50 border border-slate-200 rounded-lg p-5">
+              <div class="w-10 h-10 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center mb-3">
+                <i class="fa-solid fa-handshake-angle text-lg"></i>
+              </div>
+              <h3 class="font-bold text-sm text-slate-800 mb-1.5">3. Partnership outreach</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">Identifying brands, creators and publications for potential collaborations.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= RECENT HIGH-IMPACT BACKLINKS DATA TABLE ================= -->
+        <div class="bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden mt-4">
+          
+          <!-- Table Header Controls -->
+          <div class="p-3.5 bg-slate-50 border-b border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
+            <div>
+              <h4 class="font-bold text-slate-800 text-sm flex items-center gap-2">
+                <span>SAMPLE DATA: Recent High-Impact Backlinks &amp; Media Collaborations</span>
+              </h4>
+              <p class="text-slate-500 text-[11px]">Representative sample of editorial mentions and B2B partner links to illustrate strategy.</p>
+            </div>
+            <div class="text-lg font-extrabold text-slate-800 tracking-tight font-mono">
+              #412,890
+            </div>
+            <div class="text-[11px] font-medium text-emerald-600 mt-1 flex items-center gap-1">
+              <i class="fa-solid fa-arrow-trend-up text-[9px]"></i>
+              <span>+84.2K rank lift</span>
+            </div>
+          </div>
+
+          <!-- 2. UR -->
+          <div class="p-3.5 metric-card-hover text-left flex flex-col justify-between">
+            <div class="flex items-center justify-between text-[11px] font-semibold text-slate-500 mb-1">
+              <span>UR</span>
+              <span class="text-[10px] bg-slate-100 text-slate-500 px-1 py-0.2 rounded font-mono">URL Rating</span>
+            </div>
+            <div class="flex items-baseline gap-2">
+              <span class="text-2xl font-extrabold text-slate-800 font-mono">36</span>
+              <span class="text-[11px] text-slate-400 font-normal">/ 100</span>
+            </div>
+            <div class="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden mt-1.5">
+              <div class="bg-blue-600 h-full rounded-full" style="width: 36%"></div>
+            </div>
+          </div>
+
+          <!-- 3. DR (Domain Rating) -->
+          <div class="p-3.5 metric-card-hover text-left flex flex-col justify-between bg-emerald-50/20">
+            <div class="flex items-center justify-between text-[11px] font-semibold text-slate-500 mb-1">
+              <span class="text-slate-800 font-bold">DR</span>
+              <span class="text-[10px] bg-emerald-100 text-emerald-800 px-1.5 py-0.2 rounded font-bold font-mono">+5 Lift</span>
+            </div>
+            <div class="flex items-baseline gap-2">
+              <span class="text-2xl font-extrabold text-emerald-600 font-mono">47</span>
+              <span class="text-[11px] text-slate-400 font-normal">/ 100</span>
+            </div>
+            <div class="text-[11px] font-medium text-emerald-600 mt-1 flex items-center gap-1">
+              <span>Up from DR 42 baseline</span>
+            </div>
+          </div>
+
+          <!-- 4. Backlinks -->
+          <div class="p-3.5 metric-card-hover text-left flex flex-col justify-between">
+            <div class="flex items-center justify-between text-[11px] font-semibold text-slate-500 mb-1">
+              <span>Backlinks</span>
+              <i class="fa-solid fa-link text-slate-300 text-[10px]"></i>
+            </div>
+            <div class="text-lg font-extrabold text-slate-800 tracking-tight font-mono">
+              14.8K
+            </div>
+            <div class="text-[11px] font-medium text-slate-500 mt-1">
+              Recent: <span class="text-emerald-600 font-semibold">+340 active</span>
+            </div>
+          </div>
+
+          <!-- 5. Referring Domains -->
+          <div class="p-3.5 metric-card-hover text-left flex flex-col justify-between bg-blue-50/20">
+            <div class="flex items-center justify-between text-[11px] font-semibold text-slate-500 mb-1">
+              <span class="text-slate-800 font-bold">Ref. Domains</span>
+              <span class="text-[10px] bg-blue-100 text-blue-800 px-1.5 py-0.2 rounded font-bold font-mono">+8.4%</span>
+            </div>
+            <div class="text-lg font-extrabold text-blue-700 tracking-tight font-mono">
+              385
+            </div>
+            <div class="text-[11px] font-medium text-blue-600 mt-1">
+              +30 new authoritative domains
+            </div>
+          </div>
+
+          <!-- 6. Organic Keywords -->
+          <div class="p-3.5 metric-card-hover text-left flex flex-col justify-between">
+            <div class="flex items-center justify-between text-[11px] font-semibold text-slate-500 mb-1">
+              <span>Organic Keywords</span>
+              <i class="fa-solid fa-key text-slate-300 text-[10px]"></i>
+            </div>
+            <div class="text-lg font-extrabold text-slate-800 tracking-tight font-mono">
+              6,420
+            </div>
+            <div class="text-[10px] font-medium text-slate-500 mt-1 flex items-center gap-1">
+              <span class="bg-amber-100 text-amber-800 px-1 rounded font-bold">Top 3: 142</span>
+              <span class="bg-slate-100 text-slate-700 px-1 rounded">4-10: 512</span>
+            </div>
+          </div>
+
+          <!-- 7. Organic Search Traffic -->
+          <div class="p-3.5 metric-card-hover text-left flex flex-col justify-between bg-orange-50/20">
+            <div class="flex items-center justify-between text-[11px] font-semibold text-slate-500 mb-1">
+              <span class="text-slate-800 font-bold">Organic Traffic</span>
+              <span class="text-[10px] bg-ahrefs-accent text-white px-1.5 py-0.2 rounded font-bold font-mono">+15.2%</span>
+            </div>
+            <div class="text-lg font-extrabold text-ahrefs-accent tracking-tight font-mono">
+              24.5K <span class="text-xs text-slate-500 font-normal">/mo</span>
+            </div>
+            <div class="text-[11px] font-medium text-emerald-600 mt-1 flex items-center gap-1">
+              <i class="fa-solid fa-arrow-up text-[9px]"></i>
+              <span>+3,200 visits/mo lift</span>
+            </div>
+          </div>
+
+          <!-- 8. Traffic Value -->
+          <div class="p-3.5 metric-card-hover text-left flex flex-col justify-between">
+            <div class="flex items-center justify-between text-[11px] font-semibold text-slate-500 mb-1">
+              <span>Traffic Value</span>
+              <span class="text-[10px] text-slate-400 font-mono">PPC Eq.</span>
+            </div>
+            <div class="text-lg font-extrabold text-slate-800 tracking-tight font-mono">
+              $18,420
+            </div>
+            <div class="text-[11px] font-medium text-slate-500 mt-1">
+              Saved ad budget / month
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ================= TAB CONTENT CONTAINER ================= -->
+      
+      <!-- TAB 1: OVERVIEW TAB -->
+      <div id="tab-overview" class="tab-pane space-y-4">
+        
+        <!-- Two Primary Charts in Ahrefs Style -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          
+          <!-- Chart 1: Organic Search Traffic Growth (+15%) -->
+          <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-4 flex flex-col justify-between">
+            <div class="flex items-center justify-between mb-3">
+              <div>
+                <h3 class="font-bold text-sm text-slate-800 flex items-center gap-2">
+                  <i class="fa-solid fa-chart-area text-ahrefs-accent"></i>
+                  <span>Organic Search Traffic Trend</span>
+                  <span class="bg-orange-100 text-orange-800 text-[11px] font-bold px-2 py-0.5 rounded">+15.2% Lift</span>
+                </h3>
+                <p class="text-xs text-slate-500 mt-0.5">Monthly organic sessions across core keywords (Sep 2019 – Jan 2021)</p>
+              </div>
+              <!-- Timeline buttons -->
+              <div class="flex items-center space-x-1 text-xs">
+                <button class="px-2 py-1 rounded bg-slate-100 text-slate-700 font-semibold hover:bg-slate-200 text-[11px]">17M Tenure</button>
+              </div>
+            </div>
+
+            <!-- Canvas Container -->
+            <div class="chart-container">
+              <canvas id="organicTrafficChart"></canvas>
+            </div>
+
+            <div class="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-600">
+              <div class="flex items-center gap-4">
+                <div class="flex items-center gap-1.5">
+                  <span class="w-3 h-3 rounded-sm bg-ahrefs-accent inline-block"></span>
+                  <span>Monthly Organic Traffic</span>
+                </div>
+                <div class="flex items-center gap-1.5 text-slate-400">
+                  <span class="w-3 h-0.5 bg-slate-300 inline-block"></span>
+                  <span>Pre-project Baseline (~21,300)</span>
+                </div>
+              </div>
+              <span class="font-mono text-[11px] font-bold text-slate-700">Peak: 24,540 / mo</span>
+            </div>
+          </div>
+
+          <!-- Chart 2: Referring Domains & Backlink Prospects -->
+          <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-4 flex flex-col justify-between">
+            <div class="flex items-center justify-between mb-3">
+              <div>
+                <h3 class="font-bold text-sm text-slate-800 flex items-center gap-2">
+                  <i class="fa-solid fa-network-wired text-blue-600"></i>
+                  <span>Referring Domains &amp; Backlink Velocity</span>
+                  <span class="bg-blue-100 text-blue-800 text-[11px] font-bold px-2 py-0.5 rounded">+8.4% Ref. Domains</span>
+                </h3>
+                <p class="text-xs text-slate-500 mt-0.5">Cumulative live referring domains vs. weekly prospect vetting throughput</p>
+              </div>
+              <div class="flex items-center space-x-1 text-xs">
+                <span class="text-[11px] font-bold text-emerald-600 bg-emerald-50 px-2 py-1 rounded border border-emerald-200">
+                  Target: +5-10% (Met: 8.4%)
+                </span>
+              </div>
+            </div>
+
+            <!-- Canvas Container -->
+            <div class="chart-container">
+              <canvas id="referringDomainsChart"></canvas>
+            </div>
+
+            <div class="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-600">
+              <div class="flex items-center gap-4">
+                <div class="flex items-center gap-1.5">
+                  <span class="w-3 h-3 rounded-sm bg-blue-600 inline-block"></span>
+                  <span>Referring Domains (Total: 385)</span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                  <span class="w-3 h-3 rounded-sm bg-emerald-500 inline-block"></span>
+                  <span>Weekly Prospects Vetted (&gt;100/wk)</span>
+                </div>
+              </div>
+              <span class="font-mono text-[11px] font-bold text-slate-700">+30 High DR Domains</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ================= ANALYST PIPELINE & KPI CARDS (THE WHAT I BUILT & OWNED MODULE) ================= -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          
+          <!-- Card 1: 100+ Weekly Backlink Prospecting -->
+          <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-4">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Sprint Cadence</span>
+              <span class="text-xs font-extrabold text-amber-700 bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200">Weekly Engine</span>
+            </div>
+            <div class="text-2xl font-extrabold text-slate-900 font-mono mb-1">
+              112 <span class="text-xs font-normal text-slate-500">avg. prospects / wk</span>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Analyzed <strong>100+ weekly prospective domains</strong> with Ahrefs, evaluating Domain Rating (DR), URL Rating, anchor distribution, and ranking keywords to eliminate spam and secure high-authority backlinks.
+            </p>
+            <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
+              <span>Goal: 100 / wk</span>
+              <span class="font-bold text-emerald-600 font-mono">112% to quota</span>
+            </div>
+          </div>
+
+          <!-- Card 2: 150 Clients & 30+ Media Collaborations -->
+          <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-4">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Partnership Scale</span>
+              <span class="text-xs font-extrabold text-blue-700 bg-blue-50 px-2 py-0.5 rounded-full border border-blue-200">Outreach CRM</span>
+            </div>
+            <div class="text-2xl font-extrabold text-slate-900 font-mono mb-1">
+              152 <span class="text-xs font-normal text-slate-500">Clients</span> &amp; 32 <span class="text-xs font-normal text-slate-500">Media</span>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Engineered a digital outreach campaign connecting content marketing with targeted CRM workflows, successfully signing ~150 B2B/corporate gifting clients and locking in 30+ prominent media features.
+            </p>
+            <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
+              <span>Target: 150 clients, 30 media</span>
+              <span class="font-bold text-emerald-600 font-mono">100% Achieved</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Business Outcome & Organic Visibility Lift -->
+          <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-4">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Measurable Impact</span>
+              <span class="text-xs font-extrabold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">SEO Authority</span>
+            </div>
+            <div class="text-2xl font-extrabold text-slate-900 font-mono mb-1">
+              +15% <span class="text-xs font-normal text-slate-500">Organic</span> | +8.4% <span class="text-xs font-normal text-slate-500">Domains</span>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Directly decoupled Society Socks from expensive PPC customer acquisition by establishing an organic referral foundation that bolstered rankings for competitive gift guide and apparel search queries.
+            </p>
+            <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
+              <span>Monthly Value Created</span>
+              <span class="font-bold text-slate-800 font-mono">~$18.4K PPC eq.</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ================= RECENT HIGH-IMPACT BACKLINKS DATA TABLE ================= -->
+        <div class="bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden">
+          
+          <!-- Table Header Controls -->
+          <div class="p-3.5 bg-slate-50 border-b border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
+            <div>
+              <h4 class="font-bold text-slate-800 text-sm flex items-center gap-2">
+                <span>Recent High-Impact Backlinks &amp; Media Collaborations</span>
+                <span class="bg-slate-200 text-slate-700 font-mono font-bold text-[10px] px-1.5 py-0.2 rounded">385 Domains</span>
+              </h4>
+              <p class="text-slate-500 text-[11px]">Representative sample of live editorial mentions and B2B partner links secured through the outreach pipeline</p>
+            </div>
+
+            <!-- Table Filters & Search -->
+            <div class="flex items-center gap-2 w-full sm:w-auto">
+              <div class="relative flex-1 sm:w-64">
+                <i class="fa-solid fa-magnifying-glass absolute left-2.5 top-2.5 text-slate-400 text-xs"></i>
+                <input 
+                  type="text" 
+                  id="tableSearch" 
+                  onkeyup="filterBacklinksTable()" 
+                  placeholder="Filter by publication or anchor..." 
+                  class="w-full pl-8 pr-3 py-1.5 text-xs bg-white border border-slate-300 rounded focus:outline-none focus:border-blue-500"
+                />
+              </div>
+
+              <select id="typeFilter" onchange="filterBacklinksTable()" class="text-xs bg-white border border-slate-300 rounded px-2.5 py-1.5 focus:outline-none focus:border-blue-500 text-slate-700 font-medium">
+                <option value="ALL">All Placements</option>
+                <option value="Media Feature">Media Collaborations (32)</option>
+                <option value="B2B Client">Client Referral Links (150+)</option>
+                <option value="Gift Guide">Holiday Gift Guides</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Responsive Table -->
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-xs text-slate-700" id="backlinksTable">
+              <thead class="bg-slate-100/75 text-slate-600 font-semibold border-b border-slate-200 text-[11px] uppercase tracking-wider">
+                <tr>
+                  <th class="py-2.5 px-3.5">Referring Page &amp; URL</th>
+                  <th class="py-2.5 px-2 text-center w-16">DR</th>
+                  <th class="py-2.5 px-2 text-center w-14">UR</th>
+                  <th class="py-2.5 px-3">Anchor &amp; Target URL</th>
+                  <th class="py-2.5 px-3 w-32">Page Traffic</th>
+                  <th class="py-2.5 px-3 w-40">Collaboration Type</th>
+                  <th class="py-2.5 px-3 text-right w-28">Date Acquired</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100 font-normal" id="tableBody">
+                
+                <!-- Row 1 -->
+                <tr class="table-row-hover transition" data-type="Gift Guide">
+                  <td class="py-3 px-3.5">
+                    <div class="font-bold text-blue-700 hover:underline cursor-pointer flex items-center gap-1.5">
+                      <span>Tech Lifestyle &amp; Holiday Gift Guide: 25 Ethical Brands</span>
+                      <i class="fa-solid fa-arrow-up-right-from-square text-[9px] text-slate-400"></i>
+                    </div>
+                    <div class="text-[11px] text-slate-500 font-mono mt-0.5">techlife-insider.com/holiday-ethical-fashion-2020</div>
+                  </td>
+                  <td class="py-3 px-2 text-center">
+                    <span class="inline-block bg-purple-100 text-purple-800 font-bold px-1.5 py-0.5 rounded text-[11px] font-mono">74</span>
+                  </td>
+                  <td class="py-3 px-2 text-center font-mono font-semibold text-slate-600">38</td>
+                  <td class="py-3 px-3">
+                    <div class="font-semibold text-slate-800">"Society Socks subscription"</div>
+                    <div class="text-[10px] text-slate-400 font-mono">/collections/monthly-subscription</div>
+                  </td>
+                  <td class="py-3 px-3 font-mono text-slate-600 font-medium">42,800 /mo</td>
+                  <td class="py-3 px-3">
+                    <span class="inline-flex items-center gap-1 bg-amber-50 text-amber-800 border border-amber-200 text-[10px] font-bold px-2 py-0.5 rounded">
+                      <i class="fa-solid fa-gift text-[9px]"></i> Holiday Gift Guide
+                    </span>
+                  </td>
+                  <td class="py-3 px-3 text-right font-mono text-slate-500">Nov 2020</td>
+                </tr>
+
+                <!-- Row 2 -->
+                <tr class="table-row-hover transition" data-type="Media Feature">
+                  <td class="py-3 px-3.5">
+                    <div class="font-bold text-blue-700 hover:underline cursor-pointer flex items-center gap-1.5">
+                      <span>Men's Style Daily: Building a Wardrobe with Social Impact</span>
+                      <i class="fa-solid fa-arrow-up-right-from-square text-[9px] text-slate-400"></i>
+                    </div>
+                    <div class="text-[11px] text-slate-500 font-mono mt-0.5">mensstyledaily.com/features/society-socks-review</div>
+                  </td>
+                  <td class="py-3 px-2 text-center">
+                    <span class="inline-block bg-blue-100 text-blue-800 font-bold px-1.5 py-0.5 rounded text-[11px] font-mono">68</span>
+                  </td>
+                  <td class="py-3 px-2 text-center font-mono font-semibold text-slate-600">34</td>
+                  <td class="py-3 px-3">
+                    <div class="font-semibold text-slate-800">"socially conscious socks for men"</div>
+                    <div class="text-[10px] text-slate-400 font-mono">/collections/men-socks</div>
+                  </td>
+                  <td class="py-3 px-3 font-mono text-slate-600 font-medium">18,400 /mo</td>
+                  <td class="py-3 px-3">
+                    <span class="inline-flex items-center gap-1 bg-blue-50 text-blue-800 border border-blue-200 text-[10px] font-bold px-2 py-0.5 rounded">
+                      <i class="fa-solid fa-bullhorn text-[9px]"></i> Media Feature
+                    </span>
+                  </td>
+                  <td class="py-3 px-3 text-right font-mono text-slate-500">Aug 2020</td>
+                </tr>
+
+                <!-- Row 3 -->
+                <tr class="table-row-hover transition" data-type="B2B Client">
+                  <td class="py-3 px-3.5">
+                    <div class="font-bold text-blue-700 hover:underline cursor-pointer flex items-center gap-1.5">
+                      <span>Apex Talent Partners: Our 2020 Corporate Gifting Vendors</span>
+                      <i class="fa-solid fa-arrow-up-right-from-square text-[9px] text-slate-400"></i>
+                    </div>
+                    <div class="text-[11px] text-slate-500 font-mono mt-0.5">apextalent.co/partners/society-socks-corporate</div>
+                  </td>
+                  <td class="py-3 px-2 text-center">
+                    <span class="inline-block bg-teal-100 text-teal-800 font-bold px-1.5 py-0.5 rounded text-[11px] font-mono">53</span>
+                  </td>
+                  <td class="py-3 px-2 text-center font-mono font-semibold text-slate-600">28</td>
+                  <td class="py-3 px-3">
+                    <div class="font-semibold text-slate-800">"custom branded socks by Society Socks"</div>
+                    <div class="text-[10px] text-slate-400 font-mono">/pages/custom-branded-socks</div>
+                  </td>
+                  <td class="py-3 px-3 font-mono text-slate-600 font-medium">6,100 /mo</td>
+                  <td class="py-3 px-3">
+                    <span class="inline-flex items-center gap-1 bg-emerald-50 text-emerald-800 border border-emerald-200 text-[10px] font-bold px-2 py-0.5 rounded">
+                      <i class="fa-solid fa-briefcase text-[9px]"></i> B2B Client (~150)
+                    </span>
+                  </td>
+                  <td class="py-3 px-3 text-right font-mono text-slate-500">May 2020</td>
+                </tr>
+
+                <!-- Row 4 -->
+                <tr class="table-row-hover transition" data-type="Media Feature">
+                  <td class="py-3 px-3.5">
+                    <div class="font-bold text-blue-700 hover:underline cursor-pointer flex items-center gap-1.5">
+                      <span>EcoLiving Journal: 10 Brands That Donate for Every Purchase</span>
+                      <i class="fa-solid fa-arrow-up-right-from-square text-[9px] text-slate-400"></i>
+                    </div>
+                    <div class="text-[11px] text-slate-500 font-mono mt-0.5">ecolivingjournal.org/features/one-for-one-brands</div>
+                  </td>
+                  <td class="py-3 px-2 text-center">
+                    <span class="inline-block bg-blue-100 text-blue-800 font-bold px-1.5 py-0.5 rounded text-[11px] font-mono">62</span>
+                  </td>
+                  <td class="py-3 px-2 text-center font-mono font-semibold text-slate-600">31</td>
+                  <td class="py-3 px-3">
+                    <div class="font-semibold text-slate-800">"Society Socks charitable donation model"</div>
+                    <div class="text-[10px] text-slate-400 font-mono">/pages/our-charity-mission</div>
+                  </td>
+                  <td class="py-3 px-3 font-mono text-slate-600 font-medium">29,400 /mo</td>
+                  <td class="py-3 px-3">
+                    <span class="inline-flex items-center gap-1 bg-blue-50 text-blue-800 border border-blue-200 text-[10px] font-bold px-2 py-0.5 rounded">
+                      <i class="fa-solid fa-bullhorn text-[9px]"></i> Media Feature
+                    </span>
+                  </td>
+                  <td class="py-3 px-3 text-right font-mono text-slate-500">Jan 2020</td>
+                </tr>
+
+                <!-- Row 5 -->
+                <tr class="table-row-hover transition" data-type="Gift Guide">
+                  <td class="py-3 px-3.5">
+                    <div class="font-bold text-blue-700 hover:underline cursor-pointer flex items-center gap-1.5">
+                      <span>Sock Aficionado: Best Monthly Subscription Boxes Ranked</span>
+                      <i class="fa-solid fa-arrow-up-right-from-square text-[9px] text-slate-400"></i>
+                    </div>
+                    <div class="text-[11px] text-slate-500 font-mono mt-0.5">sockaficionado.com/reviews/society-socks-subscription</div>
+                  </td>
+                  <td class="py-3 px-2 text-center">
+                    <span class="inline-block bg-teal-100 text-teal-800 font-bold px-1.5 py-0.5 rounded text-[11px] font-mono">51</span>
+                  </td>
+                  <td class="py-3 px-2 text-center font-mono font-semibold text-slate-600">27</td>
+                  <td class="py-3 px-3">
+                    <div class="font-semibold text-slate-800">"best sock subscription box"</div>
+                    <div class="text-[10px] text-slate-400 font-mono">/collections/monthly-subscription</div>
+                  </td>
+                  <td class="py-3 px-3 font-mono text-slate-600 font-medium">9,200 /mo</td>
+                  <td class="py-3 px-3">
+                    <span class="inline-flex items-center gap-1 bg-amber-50 text-amber-800 border border-amber-200 text-[10px] font-bold px-2 py-0.5 rounded">
+                      <i class="fa-solid fa-gift text-[9px]"></i> Gift Guide
+                    </span>
+                  </td>
+                  <td class="py-3 px-3 text-right font-mono text-slate-500">Dec 2019</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Table Footer Pagination / Status -->
+          <div class="p-3 bg-slate-50 border-t border-slate-200 flex items-center justify-between text-xs text-slate-500">
+            <span>Showing top curated high-authority backlinks from the 385 referring domains archive</span>
+            <div class="flex items-center gap-2">
+              <span class="text-emerald-700 font-medium"><i class="fa-solid fa-check text-xs"></i> 100% DoFollow Verified</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- TAB 2: PROSPECT PIPELINE TAB -->
+      <div id="tab-prospect-pipeline" class="tab-pane hidden space-y-4">
+        <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-5">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <h3 class="font-bold text-base text-slate-800 flex items-center gap-2">
+                Junior Analyst Backlink Prospecting Engine
+                <span class="bg-amber-100 text-amber-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">Sample Data</span>
+              </h3>
+              <p class="text-xs text-slate-500 mt-1">Example of pipeline evaluation metrics: Domain Rating, Organic Traffic, Keyword Relevance</p>
+            </div>
+          </div>
+
+          <!-- Pipeline Funnel Stages -->
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+            <div class="bg-slate-50 border border-slate-200 p-3.5 rounded-lg">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Step 1: Prospecting</span>
+              <div class="text-2xl font-extrabold text-slate-800 font-mono mt-1">6,800+</div>
+              <p class="text-xs text-slate-500 mt-1">Total domains evaluated in Ahrefs over 17 months</p>
+            </div>
+            <div class="bg-blue-50/50 border border-blue-200 p-3.5 rounded-lg">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-blue-600">Step 2: Vetting &amp; SEO Match</span>
+              <div class="text-2xl font-extrabold text-blue-700 font-mono mt-1">1,940</div>
+              <p class="text-xs text-slate-500 mt-1">Passed strict DR, traffic, and relevance filters</p>
+            </div>
+            <div class="bg-amber-50/50 border border-amber-200 p-3.5 rounded-lg">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-amber-700">Step 3: Outreach &amp; CRM</span>
+              <div class="text-2xl font-extrabold text-amber-800 font-mono mt-1">820</div>
+              <p class="text-xs text-slate-500 mt-1">Custom pitched for media, gift guides &amp; B2B custom socks</p>
+            </div>
+            <div class="bg-emerald-50/50 border border-emerald-200 p-3.5 rounded-lg">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-700">Step 4: Acquired Placements</span>
+              <div class="text-2xl font-extrabold text-emerald-800 font-mono mt-1">182+</div>
+              <p class="text-xs text-slate-500 mt-1">150 clients + 32 media collaborations secured</p>
+            </div>
+          </div>
+
+          <!-- Methodology Details -->
+          <div class="bg-slate-50 p-4 rounded-lg border border-slate-200 text-xs text-slate-700 space-y-2">
+            <h4 class="font-bold text-slate-900 text-sm">Prospect Scoring Rubric (Implemented in Ahrefs + Google Sheets CRM):</h4>
+            <ul class="list-disc pl-5 space-y-1 leading-relaxed text-slate-600">
+              <li><strong>Domain Range &amp; Authority:</strong> Filtered out spam PBNs and scraped directories; prioritized DR 40-75 editorial blogs, sustainable fashion journals, and university/corporate partner sites.</li>
+              <li><strong>Keyword Ranking Overlap:</strong> Verified prospective sites ranked for relevant terms ("ethical clothing", "corporate holiday gifts", "best men's subscription boxes").</li>
+              <li><strong>Link Profile Health:</strong> Inspected referring domain velocity to confirm prospective partners were not under algorithmic search penalties.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 3: REFERRING DOMAINS TAB -->
+      <div id="tab-referring-domains" class="tab-pane hidden space-y-4">
+        <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-5">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <h3 class="font-bold text-base text-slate-800">Referring Domains Growth Analysis (5–10% Increase)</h3>
+              <p class="text-xs text-slate-500 mt-1">Tracking the net expansion from 355 baseline domains to 385 referring domains (+8.4% lift)</p>
+            </div>
+            <span class="bg-emerald-100 text-emerald-800 font-mono font-bold text-xs px-2.5 py-1 rounded">+30 Net Unique Domains</span>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+            <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+              <span class="text-xs text-slate-500 font-medium">Baseline Referring Domains</span>
+              <div class="text-2xl font-bold font-mono text-slate-800 mt-1">355</div>
+              <span class="text-[11px] text-slate-400">Sep 2019 benchmark</span>
+            </div>
+            <div class="p-4 bg-emerald-50/50 rounded-lg border border-emerald-200">
+              <span class="text-xs text-emerald-800 font-medium">Final Referring Domains</span>
+              <div class="text-2xl font-bold font-mono text-emerald-700 mt-1">385</div>
+              <span class="text-[11px] text-emerald-600 font-semibold">+8.4% expansion (within 5-10% target)</span>
+            </div>
+            <div class="p-4 bg-blue-50/50 rounded-lg border border-blue-200">
+              <span class="text-xs text-blue-800 font-medium">Average Acquired DR</span>
+              <div class="text-2xl font-bold font-mono text-blue-700 mt-1">DR 58.4</div>
+              <span class="text-[11px] text-blue-600">Significantly above site baseline (DR 42)</span>
+            </div>
+          </div>
+
+          <p class="text-xs text-slate-600 leading-relaxed bg-slate-50 p-3 rounded border border-slate-200">
+            <strong>Key takeaway:</strong> The steady 5–10% lift in referring domains was prioritized over raw quantity. By selecting higher-DR publications and legitimate corporate client sites, the overall site Domain Rating scaled from <strong>42 to 47</strong>, cementing permanent organic ranking advantages.
+          </p>
+        </div>
+      </div>
+
+      <!-- TAB 4: ORGANIC TRAFFIC TAB -->
+      <div id="tab-organic-traffic" class="tab-pane hidden space-y-4">
+        <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-5">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <h3 class="font-bold text-base text-slate-800">Organic Traffic Growth: +15% Search Surge</h3>
+              <p class="text-xs text-slate-500 mt-1">How strategic link-building directly translated into non-brand organic search visibility</p>
+            </div>
+            <span class="bg-ahrefs-accent text-white font-mono font-bold text-xs px-3 py-1 rounded">+3,200 Monthly Visits</span>
+          </div>
+
+          <div class="space-y-3 text-xs text-slate-700 leading-relaxed">
+            <div class="p-3 bg-slate-50 rounded border border-slate-200 flex items-start gap-3">
+              <div class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold flex-shrink-0">
+                1
+              </div>
+              <div>
+                <h4 class="font-bold text-slate-900 mb-0.5">Top-of-Funnel Gift Guide Placements</h4>
+                <p class="text-slate-600">Targeted lifestyle magazines right before Q4 holiday rushes, capturing search traffic for high-intent queries like "subscription socks for men" and "gifts that give back".</p>
+              </div>
+            </div>
+
+            <div class="p-3 bg-slate-50 rounded border border-slate-200 flex items-start gap-3">
+              <div class="w-8 h-8 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center font-bold flex-shrink-0">
+                2
+              </div>
+              <div>
+                <h4 class="font-bold text-slate-900 mb-0.5">Category &amp; Product Page Link Juice Flow</h4>
+                <p class="text-slate-600">Directed backlink anchors specifically to high-margin collection pages (`/collections/mens-socks` and `/collections/monthly-subscription`) to push terms from page 2 into Google's top 3 results.</p>
+              </div>
+            </div>
+
+            <div class="p-3 bg-slate-50 rounded border border-slate-200 flex items-start gap-3">
+              <div class="w-8 h-8 rounded-full bg-amber-100 text-amber-700 flex items-center justify-center font-bold flex-shrink-0">
+                3
+              </div>
+              <div>
+                <h4 class="font-bold text-slate-900 mb-0.5">PPC Cost Offset</h4>
+                <p class="text-slate-600">The 15% organic traffic lift delivered the search equivalent of <strong>$18,400/month in paid Google Ads spend</strong>, shielding the startup from rising direct-to-consumer digital acquisition costs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 5: MEDIA COLLABORATIONS TAB -->
+      <div id="tab-media-collaborations" class="tab-pane hidden space-y-4">
+        <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-5">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <h3 class="font-bold text-base text-slate-800 flex items-center gap-2">
+                Media Collaborations &amp; Client Acquisition Suite
+                <span class="bg-amber-100 text-amber-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">Sample Data</span>
+              </h3>
+              <p class="text-xs text-slate-500 mt-1">Illustrative breakdown of targeted media publications and B2B client partnerships</p>
+            </div>
+          </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= DISCLAIMER ================= -->
+      <div class="mt-8 mb-2 px-5 py-4 bg-slate-200/50 border border-slate-300 rounded-lg text-xs text-slate-600 leading-relaxed shadow-inner">
+        <strong>Note:</strong> This dashboard is a retrospective recreation of the project workflow. Dashboard interface, sample records and visualizations are illustrative and do not represent original historical analytics exports. Reported project outcomes are presented separately.
+      </div>
+
+    </main>
+  </div>
+
+  <!-- ================= FLOATING TOAST NOTIFICATION ================= -->
+  <div id="toast" class="fixed bottom-5 right-5 bg-slate-900 text-white text-xs px-4 py-2.5 rounded-lg shadow-xl border border-slate-700 flex items-center gap-2 transform translate-y-20 opacity-0 transition duration-300 pointer-events-none z-50">
+    <i class="fa-solid fa-circle-check text-emerald-400"></i>
+    <span id="toastMsg">Action executed</span>
+  </div>
+
+  <!-- ================= JAVASCRIPT LOGIC & CHARTS ================= -->
+  <script>
+    // Tab switching mechanism
+    function switchTab(tabId) {
+      // Hide all panes
+      document.querySelectorAll('.tab-pane').forEach(el => el.classList.add('hidden'));
+      // Show selected pane
+      const targetPane = document.getElementById('tab-' + tabId);
+      if (targetPane) targetPane.classList.remove('hidden');
+
+      // Update sidebar nav state
+      document.querySelectorAll('.tab-nav-btn').forEach(btn => {
+        if (btn.getAttribute('data-target') === tabId) {
+          btn.classList.add('bg-blue-50', 'text-blue-600', 'font-semibold');
+          btn.classList.remove('hover:bg-slate-100', 'text-slate-600');
+        } else {
+          btn.classList.remove('bg-blue-50', 'text-blue-600');
+          btn.classList.add('hover:bg-slate-100', 'text-slate-600');
+        }
+      });
+    }
+
+    // Toast message helper (no alerts allowed)
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toastMsg');
+      toastMsg.textContent = message;
+      toast.classList.remove('translate-y-20', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+      setTimeout(() => {
+        toast.classList.remove('translate-y-0', 'opacity-100');
+        toast.classList.add('translate-y-20', 'opacity-0');
+      }, 3500);
+    }
+
+    // Filter Backlinks Table
+    function filterBacklinksTable() {
+      const search = document.getElementById('tableSearch').value.toLowerCase();
+      const type = document.getElementById('typeFilter').value;
+      const rows = document.querySelectorAll('#tableBody tr');
+
+      rows.forEach(row => {
+        const text = row.textContent.toLowerCase();
+        const rowType = row.getAttribute('data-type');
+        const matchesSearch = text.includes(search);
+        const matchesType = (type === 'ALL' || rowType === type);
+
+        if (matchesSearch && matchesType) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
+      });
+    }
+
+    // Export CSV Simulation
+    function exportSnapshotData() {
+      const csvContent = "data:text/csv;charset=utf-8," +
+        "Date,Organic_Traffic,Referring_Domains,Domain_Rating,Prospects_Analyzed,Status\n" +
+        "Sep 2019,21300,355,42,104,Baseline\n" +
+        "Nov 2019,21800,359,43,110,Holiday Outreach\n" +
+        "Dec 2019,23100,364,44,118,Media Features Live\n" +
+        "Mar 2020,22900,368,44,108,B2B Strategy\n" +
+        "Jul 2020,23500,374,45,115,Content Outreach\n" +
+        "Nov 2020,24200,381,46,112,Holiday Round 2\n" +
+        "Jan 2021,24540,385,47,114,+15% Organic Lift Achieved\n";
+
+      const encodedUri = encodeURI(csvContent);
+      const link = document.createElement("a");
+      link.setAttribute("href", encodedUri);
+      link.setAttribute("download", "Society_Socks_Ahrefs_SEO_Tenure_Data.csv");
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      showToast("Downloaded Society Socks Ahrefs SEO metrics CSV!");
+    }
+
+    // Search simulation
+    function simulateSearch() {
+      const input = document.getElementById('domainInput').value.trim();
+      showToast(`Refreshed Site Explorer crawler index for: ${input}`);
+    }
+  </script>
+</body>
+</html>
